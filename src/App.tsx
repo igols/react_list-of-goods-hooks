@@ -38,7 +38,7 @@ function sorts(buttonName: SortType, [...good] = goodsFromServer): string[] {
         return item1.length - item2.length;
 
       default:
-        return '';
+        return 0;
     }
   });
 }
